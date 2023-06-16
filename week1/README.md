@@ -19,3 +19,12 @@ I noticed this a lot in some of my interviews too, but it seems that I have a
 lot of issues getting indices right. There's always some off by one issues.
 Should consider doing more questions like these to stop making simple mistakes.
 
+## Q9: Flood Fill
+
+The majority of the time taken to do this question had to do with figuring out
+the API for set in python. It may be worth familiarizing myself with common
+data structures in python like heap, queue, set, map etc.
+
+Furthermore, the syntax for list comprehension gets a bit more ugly once we
+start adding more conditions, can try to take a look at some more functional
+programming like functions like map and filter in python.
