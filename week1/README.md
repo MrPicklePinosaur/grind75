@@ -28,3 +28,32 @@ data structures in python like heap, queue, set, map etc.
 Furthermore, the syntax for list comprehension gets a bit more ugly once we
 start adding more conditions, can try to take a look at some more functional
 programming like functions like map and filter in python.
+
+## 10: Lowest Common Ancestor of a Binary Search Tree
+
+Easy
+
+## 11: Balanced Binary Tree
+
+Recursively explore branches of tree and compare height of left and right
+subtrees. Return type is a tuple `(bool, int)` where the `bool` represents if
+the tree was balanced and the right for the height of the tree. The reason we
+also return a bool is that if a single subtree is unbalanced we can return
+right away. This allows us to short circuit a lot of the checks we need to do.
+
+## 12: Linked List Cycle
+
+My original implementation keeps track of the visited nodes by using their
+memory address. We know that we have a loop if we return to a node that we have
+visited. However, this uses linear memory. For the constant memory solution, we
+can use the two pointer algorithm, using a pointer that traverses the linked
+last one one at a time and  one that traverses two nodes at a time.
+
+## 13: Implement Queue Using Stacks
+
+Implementation is amortized O(n). Make use of two stacks, one where the top
+represents the front of the queue and one where the top represents the back.
+When we push to queue, we push to the back stack. When we pop from queue, we
+pop from front stack. When the front stack is empty, we then shift all items
+from back stack to front stack.
+
