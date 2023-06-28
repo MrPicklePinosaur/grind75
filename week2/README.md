@@ -34,3 +34,18 @@ during an interview.
 
 From now on, I should also time myself when doing questions to add an element
 of stress?
+
+## Q5: Reverse Linked List
+
+Easy iterative solution the involved constructing a new linked list while
+traversing through original, similar to reversing a stack by popping and then
+pushing into new stack. This method is faster but has worse memory.
+
+The second approach is to use pointer swapping and reverse the list in place.
+This method is slower but has much better memory usage.
+
+# Q6: Majority Element
+
+Easy naive solution, count occurences of all elements and return the one that
+occurs more than n/2 times. Next, to do it in linear time and constant space.
+We can use Moore's Voting Algorithm, explanation [here](https://www.youtube.com/watch?v=7pnhv842keE)
