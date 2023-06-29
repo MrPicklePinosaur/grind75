@@ -44,8 +44,33 @@ pushing into new stack. This method is faster but has worse memory.
 The second approach is to use pointer swapping and reverse the list in place.
 This method is slower but has much better memory usage.
 
-# Q6: Majority Element
+## Q6: Majority Element
 
 Easy naive solution, count occurences of all elements and return the one that
 occurs more than n/2 times. Next, to do it in linear time and constant space.
 We can use Moore's Voting Algorithm, explanation [here](https://www.youtube.com/watch?v=7pnhv842keE)
+
+## Q7: Add Binary
+
+Simple implementation on how addition is done by hand.
+
+## Q8: Diameter of Binary Tree
+
+Approach is to get the best diameter of each subtree as well as the depth. At
+any point we can try to make a better diameter by taking the path that goes to
+the depth of left and right subtrees. We either take this new diameter or keep
+a diameter of a subtree.
+
+## Q9: Middle of the Linked List
+
+Simple head and slow pointer implementation
+
+## Q10: Maximum Depth of Binary Tree
+
+Turbo easy lol
+
+## Q11: Contains Duplicate
+
+Went for O(n) time and O(n) space solution using a set. Can also sort and
+traverse, checking if adjacent elements are the same, giving us O(1) space but
+O(nlogn) time.
