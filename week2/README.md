@@ -74,3 +74,14 @@ Turbo easy lol
 Went for O(n) time and O(n) space solution using a set. Can also sort and
 traverse, checking if adjacent elements are the same, giving us O(1) space but
 O(nlogn) time.
+
+## Q12: Maximum Subarray
+
+We can reduce this problem to Best time to buy and sell stocks by taking the
+input array and generating a prefix sum array. By taking the difference between
+any two elements in prefix array, we get the total value of the subarray.
+
+After looking at the other solutions, I found an O(1) memory solution that uses
+Kadane's algorithm. The implementation is explained
+[here](https://www.youtube.com/watch?v=5WZl3MMT0Eg). Esentially it does one
+pass through the input array and discards negative prefixes.
