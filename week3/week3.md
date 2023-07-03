@@ -14,3 +14,14 @@ rightmost intervals are also not very pythonic (or nice).
 
 There is a much better one pass solution where we merge intervals as we go.
 Solution explanation [here](https://www.youtube.com/watch?v=A8NUOmlwOlM)
+
+## Q2: 01 Matrix
+
+This took quite a while to implement the BFS solution. Should review search
+algorithms and get much faster and writing them as well as debugging them.
+
+There is also a DP solution that involved making a top down pass to check the
+cells above and to the left, followed by a bottom up pass to chec k the cells
+below and to the right.
+
+Explanation video [here](https://www.youtube.com/watch?v=Ezj3VDOfd5I).
