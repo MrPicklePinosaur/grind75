@@ -25,3 +25,12 @@ cells above and to the left, followed by a bottom up pass to chec k the cells
 below and to the right.
 
 Explanation video [here](https://www.youtube.com/watch?v=Ezj3VDOfd5I).
+
+## Q3: K Closest Points to Origin
+
+First implementation is to compute the distance to origin, sort based on
+distance and return the first k. Runtime is O(nlogn).
+
+Similar solution can probably be implemented using a priority heap, but we
+ensure the heap contains at most K elements, which can give us a slightly
+better O(nlogk) runtime.
