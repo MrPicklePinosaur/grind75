@@ -34,3 +34,8 @@ distance and return the first k. Runtime is O(nlogn).
 Similar solution can probably be implemented using a priority heap, but we
 ensure the heap contains at most K elements, which can give us a slightly
 better O(nlogk) runtime.
+
+## Q4: Longest Substring Without Repeating Characters
+
+Pretty simple O(n) sliding window approach. Took me way too long since I kept
+getting the indexing wrong.
