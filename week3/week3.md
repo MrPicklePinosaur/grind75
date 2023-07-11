@@ -39,3 +39,7 @@ better O(nlogk) runtime.
 
 Pretty simple O(n) sliding window approach. Took me way too long since I kept
 getting the indexing wrong.
+
+## Q5: 3Sum
+
+Based off of neetcode's [solution](https://www.youtube.com/watch?v=jzZsG8n2R9A)
