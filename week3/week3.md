@@ -43,3 +43,18 @@ getting the indexing wrong.
 ## Q5: 3Sum
 
 Based off of neetcode's [solution](https://www.youtube.com/watch?v=jzZsG8n2R9A)
+
+## Q6: Binary Tree Level Order Traversal
+
+Started off with a pretty bad solution that involved recursively merging left
+and right branch solutions. Then went on to much better iterative solution that
+involves processing an entire level at a time using queues.
+
+## Q7: Clone Graph
+
+Pretty simple DFS solution, but took very long due to combination of not
+reading the question properly (return only node with id 1 etc), and also not
+understanding python's memory model very well (what's a reference, when are
+copies made etc).
+
+Better explanation [neetcode](https://www.youtube.com/watch?v=mQeF6bN8hMk)
