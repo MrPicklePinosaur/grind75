@@ -58,3 +58,9 @@ understanding python's memory model very well (what's a reference, when are
 copies made etc).
 
 Better explanation [neetcode](https://www.youtube.com/watch?v=mQeF6bN8hMk)
+
+## Q8: Reverse Polish Notation
+
+Pretty simple parsing. However the runtime and memory usage is not great. This
+is perhaps due to copying the input array on each recursive call. May be better
+to pass around pointers (index to where we are parsing from).
