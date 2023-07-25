@@ -54,3 +54,9 @@ Pretty simple solution making each recurive call return if the left and right
 trees are valid, as well as the min and max values for each subtree. Using this
 information, we can check at any given subtree if that subtree is valid or not.
 
+# Q07: Number of Islands
+
+Ran with simple approach to scan map for an island and then use flood fill to
+explore the entire island.
+
+Submitted solution had pretty bad runtime and memory, could look at optimizing.
