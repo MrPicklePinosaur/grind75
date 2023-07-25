@@ -47,3 +47,10 @@ to decide the new min value.
 Slight opttimization that we can do is only to push onto the min stack when we
 have a new minimum value. Otherwise we will have a bunch of redundant values in
 min stack.
+
+# Q06: Validate Binary Search Tree
+
+Pretty simple solution making each recurive call return if the left and right
+trees are valid, as well as the min and max values for each subtree. Using this
+information, we can check at any given subtree if that subtree is valid or not.
+
