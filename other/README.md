@@ -12,3 +12,7 @@ of math possibly?
 
 Took quite a bit of time to implement the binary search with correct indicies,
 should definitely review template for binary search.
+
+## 48. Rotate Image
+
+Pretty simple, just transposed the matrix and then reversed each row.
