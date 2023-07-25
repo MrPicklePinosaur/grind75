@@ -18,3 +18,16 @@ Node traversals are done recursively rather than iteratively, which seemed to
 make it slower? In addition, a helper TrieNode struct was used. In other
 languages this may not have too big of an effect but it slowed down the python
 solution quite a lot I believe.
+
+# Q03: Coin Change
+
+Simple 1D implementation. Switched to using Cpp.
+
+# Q04: Product of Array Except Self
+
+First implementation involved traversing the list forward and backwards, each
+time multiplying the value in the output vector by the prefix/sufix sum.
+
+The solution didn't do very well in terms of runtime. I think it might be
+possible to optimize by first scanning the vector for any zeros, as we can get
+some special cases that run fast if we find zeroes.
