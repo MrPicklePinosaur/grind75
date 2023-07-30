@@ -60,3 +60,15 @@ Ran with simple approach to scan map for an island and then use flood fill to
 explore the entire island.
 
 Submitted solution had pretty bad runtime and memory, could look at optimizing.
+
+# Q08: Rotting Oranges
+
+Pretty basic solution involving simulating the spread of the rotting oranges.
+The current solution requires a good amount of copying so it's pretty bad
+memory wise.
+
+Second implemention involved multiscourse BFS. Once again, this should have
+been an easy implementaiton but took really long to get details right.
+Definitely, certainly review BFS, DFS and other common algorithm templates and
+get fast at implementing them. What espescially takes me a long time is writing
+code to explore in a grid (accessing neighouring cells etc).
