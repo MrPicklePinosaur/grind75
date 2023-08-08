@@ -17,4 +17,9 @@ We can probably improve this solution by making the DP top down instead.
 [this solution](https://www.youtube.com/watch?v=GBKI9VSKdGg) solves it using
 backtracking and a decision tree.
 
+# Q03: Permutations
+
+Pretty simple implementaiton that involves swapping elements while slowly
+growing the part of the array that stays constant.
+
 
