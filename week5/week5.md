@@ -45,3 +45,10 @@ In all, this once again took embarassing long to get the binary search correct.
 Should definitely do a bunch of practice involoving different variations of
 binary search, taking into consideration the exit condition, how to reassign
 left and right pointers etc.
+
+# Q07: Accounts Merge
+
+Solution using union find. Did not remember union find very well before so had
+to review. The solution was also completely based off of [this
+video](https://www.youtube.com/watch?v=6st4IxEF-90)
+
