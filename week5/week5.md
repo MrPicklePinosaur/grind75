@@ -35,3 +35,13 @@ binary tree. Make sure to read problem properly next time.
 The proper implementation was quite straight forward but some parts of cpp made
 it a bit clunky, especially with returning multiple values from functions.
 Should see how this can be done in a cleaner way.
+
+# Q06: Time Based Key-Value Store
+
+Once again didn't read input spec and missed that the set operations will use
+strictly increasing timestamps, which once again wasted a bunch of time.
+
+In all, this once again took embarassing long to get the binary search correct.
+Should definitely do a bunch of practice involoving different variations of
+binary search, taking into consideration the exit condition, how to reassign
+left and right pointers etc.
