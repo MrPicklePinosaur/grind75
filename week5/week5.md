@@ -52,3 +52,12 @@ Solution using union find. Did not remember union find very well before so had
 to review. The solution was also completely based off of [this
 video](https://www.youtube.com/watch?v=6st4IxEF-90)
 
+# Q08: Sort Colors
+
+Pretty simple two pass solution that involves first swapping all 0's to the
+left side and advancing a sorted pointer, and then doing the same with all the
+1's.
+
+A one pass solution was also attempted with both a left and right frontier
+pointer but there were a couple of edge cases left. Looked at some solutions
+and looks like you need to also include a mid pointer.
