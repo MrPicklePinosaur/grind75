@@ -22,4 +22,7 @@ backtracking and a decision tree.
 Pretty simple implementaiton that involves swapping elements while slowly
 growing the part of the array that stays constant.
 
+# Q04: Merge Intervals
 
+Very simple implementation, had some issues with cpp sort function not behaving
+as expected however.
