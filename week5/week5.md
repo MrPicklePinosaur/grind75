@@ -26,3 +26,12 @@ growing the part of the array that stays constant.
 
 Very simple implementation, had some issues with cpp sort function not behaving
 as expected however.
+
+# Q05: Lowest Common Ancestor of a Binary Tree
+
+Misread the question and thought it was a binary search tree, not a regular
+binary tree. Make sure to read problem properly next time.
+
+The proper implementation was quite straight forward but some parts of cpp made
+it a bit clunky, especially with returning multiple values from functions.
+Should see how this can be done in a cleaner way.
