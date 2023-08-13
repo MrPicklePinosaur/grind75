@@ -18,3 +18,8 @@ perhaps the DP solution wouldn't have been as good as a simple decision tree.
 Passed the tests easily but I feel like the code wasn't the most clean,
 especially the clamping part. Could optionally review cpp's stream functions
 and best practices for parsing.
+
+# Q04: Spiral Matrix
+
+Quite easy conceptually but took a tiny bit to think of the best way to
+traverse the matrix.
