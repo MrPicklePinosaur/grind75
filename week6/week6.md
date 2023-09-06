@@ -23,3 +23,9 @@ and best practices for parsing.
 
 Quite easy conceptually but took a tiny bit to think of the best way to
 traverse the matrix.
+
+# Q05: Subsets
+
+Quite simple solution, I beleive there could be a decent amount of
+optimizations when reducing copies however. Can also use an alternate decision
+tree solution.
