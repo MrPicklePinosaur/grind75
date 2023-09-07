@@ -29,3 +29,9 @@ traverse the matrix.
 Quite simple solution, I beleive there could be a decent amount of
 optimizations when reducing copies however. Can also use an alternate decision
 tree solution.
+
+# Q06: Binary Tree Right Side View
+
+Pretty slow solution that involves merging solution from left and right
+subtrees. Should implement BFS solution.
+
